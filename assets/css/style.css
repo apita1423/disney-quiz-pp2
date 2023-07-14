@@ -13,7 +13,7 @@
     padding: 30px;
 }
 
-.quiz-container h2 {
+.quiz-container h3 {
     font-size: 30px;
     text-align: center;
     color: #FB8F67;
@@ -41,6 +41,8 @@
 }
 
 #next-question-btn {
+    background: #FB8F67;
+    color: #156064;
     text-align: center;
     font-weight: 500;
     width: 150px;
@@ -49,5 +51,6 @@
     margin: 20px auto 0;
     border-radius: 4px;
     cursor: pointer;
+    display: none;
 }
 
