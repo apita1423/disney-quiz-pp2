@@ -1,5 +1,4 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -14,7 +13,8 @@
 }
 
 .quiz-container h3 {
-    font-size: 30px;
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 4rem;
     text-align: center;
     color: #FB8F67;
     border-bottom: 1px solid ;
