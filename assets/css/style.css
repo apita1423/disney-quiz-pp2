@@ -17,8 +17,14 @@
     font-size: 4rem;
     text-align: center;
     color: #FB8F67;
-    border-bottom: 1px solid ;
     padding-bottom: 30px;
+}
+
+.question-container h2{
+    font-family: 'Wix MadeFor Display', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
 }
 
 .btn {
@@ -51,6 +57,13 @@
     margin: 20px auto 0;
     border-radius: 4px;
     cursor: pointer;
-    display: none;
+    display: block;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-family: 'Wix MadeFor Display', sans-serif;
 }
 
