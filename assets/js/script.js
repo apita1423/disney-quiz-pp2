@@ -1,3 +1,4 @@
+//disney questions and answer options
 const game = [
     {
         question: "What movie is the song, 'We don\'t talk about Bruno?' called?",
@@ -83,10 +84,8 @@ function startGame(){
 }
 
 function loadQuestion(){
-    startState();
+    resetState();
     let currentQuestion = game[currentQuestionIndex];
-    const randomQuestion = Math.floor(Math.random() * game.length);
-    currentQuestion = game[randomQuestion];
     disneyQuestion.innerHTML = currentQuestion.question;
 
     currentQuestion.answer.forEach(answer => {
@@ -94,6 +93,36 @@ function loadQuestion(){
         button.innerHTML = answer.option;
         button.classList.add("btn");
         answerOptions.appendChild(button);
+        if(answer.correct) {
+            button.dataset.correct = answer.correct;
+        }
+        button.addEventListener("click", selectOption);
     });
 }
+
+function resetState(){
+    nextQuestionBtn.style.display = "none";
+    while(answerOptions.firstChild){
+        answerOptions.removeChild(answerOptions.firstChild);
+    }
+}
+
+function selectOption(event){
+    const selectedBtn = event.target;
+    const isCorrect = selectedBtn.dataset.correct === "true";
+    if(isCorrect){
+        selectedBtn.classList.add("correct");
+        score++;
+    }else{ 
+        selectedBtn.classList.add("incorrect");
+    }
+    Array.from(answerOptions.children).forEach(button => {
+        if(button.dataset.correct === "true"){
+            button.classList.add("correct");
+        }
+        button.disabled = true;
+    });
+}
+
+startGame();
 
