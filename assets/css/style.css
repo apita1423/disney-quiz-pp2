@@ -1,3 +1,4 @@
+/* main */
 html {
     background: url(../images/disney_2.jpg) no-repeat center center fixed;
     overflow: hidden;
@@ -12,6 +13,7 @@ html {
     max-height: 100vh;
 }
 
+/* quiz style */
 .quiz-container {
     background: #e7bb41;
     width: 90%;
@@ -28,6 +30,7 @@ html {
     color: #2a9d8f;
 }
 
+/* question container style */
 .question-container {
     margin-bottom: 1rem;
 }
@@ -40,6 +43,7 @@ html {
     color: #2a9d8f;
 }
 
+/* buttons */
 .btn {
     background: #e76f51;
     color: #156064;
@@ -71,6 +75,7 @@ html {
     display: none;
 }
 
+/* feedback when answer is right or wrong */
 .correct {
     background: green;
 }
@@ -79,6 +84,7 @@ html {
     background: red;
 }
 
+/* footer */
 .footer p {
     text-align: center;
     font-size: 1.2rem;

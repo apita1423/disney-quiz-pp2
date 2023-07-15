@@ -50,21 +50,30 @@ const game = [
         ]
     },
     {
-        question: "In the Marvel movies, who was nicknamed, 'Point-Break'?",
+        question: "In the Marvel movies, who was nicknamed, 'Point Break'?",
         answer: [
             { option: 'Captain America', correct: false},
             { option: 'Natasha Romanoff', correct: false},
-            { option: 'Thor', correct: false},
-            { option: 'Bruce Banner', correct: true}
+            { option: 'Thor', correct: true},
+            { option: 'Bruce Banner', correct: false}
         ]
     },
     {
         question: "In the Star War movies, who is Rey's grandfather?",
         answer: [
-            { option: 'Darth Vadar', correct: false},
+            { option: 'Darth Vader', correct: false},
             { option: 'Palpatine', correct: true},
             { option: 'Luke Skywalker', correct: false},
             { option: 'Han Solo', correct: false}
+        ]
+    },
+    {
+        question: "Where is Disney World located?",
+        answer: [
+            { option: 'Florida', correct: true},
+            { option: 'California', correct: false},
+            { option: 'Paris', correct: false},
+            { option: 'Washington', correct: false}
         ]
     }
 ];
@@ -128,7 +137,7 @@ function selectOption(event){
 function revealScore(){
     resetState();
     disneyQuestion.innerHTML = `You scored ${score} out of ${game.length}!`;
-    nextQuestionBtn.innerHTML = "Let's Try Again";
+    nextQuestionBtn.innerHTML = "Let's Play Again";
     nextQuestionBtn.style.display = "block";
 }
 

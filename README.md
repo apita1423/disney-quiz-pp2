@@ -5,7 +5,7 @@ Whiskers N Whole Beans is a business's website. It is intended to give users inf
 
 ![Whiskers N Whole Beans across different screen sizes](/assets/readme-images/responsive-screens-readme.png)
 
-Whiskers N Whole Beans is Live!  Visit [Here](https://apita1423.github.io/whiskers-n-whole-beans/).  Hope you enjoy!
+Disney Quiz ia Live!  Visit [Here](https://apita1423.github.io/disney-quiz-pp2/).  Hope you enjoy!
 
 ---
 
