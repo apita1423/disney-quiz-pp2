@@ -122,7 +122,17 @@ function selectOption(event){
         }
         button.disabled = true;
     });
+    nextQuestionBtn.style.display = "block";
 }
+
+function revealScore(){
+    resetState();
+    disneyQuestion.innerHTML = `You scored ${score} out of ${game.length}!`;
+    nextQuestionBtn.innerHTML = "Let's Try Again";
+    nextQuestionBtn.style.display = "block";
+}
+
+
 
 startGame();
 
