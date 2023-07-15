@@ -58,7 +58,6 @@ html {
 .btn {
     background: #e76f51;
     color: #156064;
-    font-weight: 500;
     width: 100%;
     border: 1px solid #e76f51;
     padding: 10px;
@@ -125,12 +124,26 @@ html {
 
 /* for screens from 400px wide and up */
 @media screen and (max-width: 400px) {
-
     .quiz-container h3 {
         font-size: 2.5rem;
     }
 
     .question-container h2 {
         font-size: 2rem;
+    }
+}
+
+/*for screens from 375px wide and up */
+@media screen and (max-width: 375px) {
+    .quiz-container {
+        margin: 1rem;
+    }
+
+    .quiz-container h3 {
+        font-size: 2rem;
+    }
+
+    .question-container h2 {
+        font-size: 1.7rem;
     }
 }
