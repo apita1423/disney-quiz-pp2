@@ -46,7 +46,24 @@ const game = [
             { option: 'Ocean', correct: false},
             { option: 'Family', correct: true},
             { option: 'Mouse', correct: false}
-
+        ]
+    },
+    {
+        question: "In the Marvel movies, who was nicknamed, 'Point-Break'?",
+        answer: [
+            { option: 'Captain America', correct: false},
+            { option: 'Natasha Romanoff', correct: false},
+            { option: 'Thor', correct: false},
+            { option: 'Bruce Banner', correct: true}
+        ]
+    },
+    {
+        question: "In the Star War movies, who is Rey's grandfather?",
+        answer: [
+            { option: 'Darth Vadar', correct: false},
+            { option: 'Palpatine', correct: true},
+            { option: 'Luke Skywalker', correct: false},
+            { option: 'Han Solo', correct: true}
         ]
     }
 ];
@@ -55,8 +72,28 @@ const disneyQuestion = document.getElementById("disney-question");
 const answerOptions = document.getElementById("answer-options");
 const nextQuestionBtn = document.getElementById("next-question-btn");
 
-let currentQuesitonIndex = 0;
+let currentQuestionIndex = 0;
 let score = 0;
 
+function startGame(){
+    currentQuestionIndex = 0;
+    score = 0;
+    nextQuestionBtn.innerHTML = "Next";
+    loadQuestion();
+}
 
+function loadQuestion(){
+    startState();
+    let currentQuestion = game[currentQuestionIndex];
+    const randomQuestion = Math.floor(Math.random() * game.length);
+    currentQuestion = game[randomQuestion];
+    disneyQuestion.innerHTML = currentQuestion.question;
+
+    currentQuestion.answer.forEach(answer => {
+        const button = document.createElement("button");
+        button.innerHTML = answer.option;
+        button.classList.add("btn");
+        answerOptions.appendChild(button);
+    });
+}
 
