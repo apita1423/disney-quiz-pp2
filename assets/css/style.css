@@ -52,7 +52,6 @@ html {
     color: #2a9d8f;
 }
 
-
 /* buttons */
 .btn {
     background: #e76f51;
@@ -67,7 +66,8 @@ html {
 }
 
 .btn:hover {
-    color: #264653
+    color: #264653;
+    transform: translateY(-0.1rem);
 }
 
 #next-question-btn {
