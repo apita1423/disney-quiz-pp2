@@ -64,7 +64,7 @@ const game = [
             { option: 'Darth Vadar', correct: false},
             { option: 'Palpatine', correct: true},
             { option: 'Luke Skywalker', correct: false},
-            { option: 'Han Solo', correct: true}
+            { option: 'Han Solo', correct: false}
         ]
     }
 ];

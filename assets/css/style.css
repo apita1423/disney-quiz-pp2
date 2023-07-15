@@ -1,10 +1,18 @@
+html {
+    background: url(../images/disney_2.jpg) no-repeat center center fixed;
+    overflow: hidden;
+    height: 100%;
+    background-size: cover;
+}
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .quiz-container {
-    background: #156064;
+    background: #e7bb41;
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
@@ -16,38 +24,40 @@
     font-family: 'Luckiest Guy', sans-serif;
     font-size: 4rem;
     text-align: center;
-    color: #FB8F67;
-    padding-bottom: 30px;
+    color: #2a9d8f;
+}
+
+.question-container {
+    margin-bottom: 1rem;
 }
 
 .question-container h2{
-    font-family: 'Wix MadeFor Display', sans-serif;
+    font-family: 'Patrick Hand', sans-serif;
     text-align: center;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 40px;
+    color: #2a9d8f;
 }
 
 .btn {
-    background: #FB8F67;
+    background: #e76f51;
     color: #156064;
     font-weight: 500;
     width: 100%;
-    border: 1px solid #156064;
+    border: 1px solid #e76f51;
     padding: 10px;
     margin: 10px 0;
-    text-align: left;
-    border-radius: 5px;
+    border-radius: 1rem;
     cursor: pointer;
-    transition: all 0.3s;
 }
 
 .btn:hover {
-    background: #156064;
-    color: #FB8F67
+    background: #2a9d8f;
+    color: #264653
 }
 
 #next-question-btn {
-    background: #FB8F67;
+    background: #e76d51;
     color: #156064;
     text-align: center;
     font-weight: 500;
@@ -57,13 +67,22 @@
     margin: 20px auto 0;
     border-radius: 4px;
     cursor: pointer;
-    display: block;
+    display: none;
 }
 
-footer p {
+.correct {
+    background: green;
+}
+
+.incorrect {
+    background: red;
+}
+
+.footer p {
     text-align: center;
-    margin-top: 1.5rem;
     font-size: 1.2rem;
-    font-family: 'Wix MadeFor Display', sans-serif;
+    font-family: 'Patrick Hand', sans-serif;
+    color: #e76d51;
+    margin-top: 1rem;
 }
 
