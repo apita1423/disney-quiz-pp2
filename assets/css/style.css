@@ -1,7 +1,6 @@
 /* main */
 html {
     background: url(../images/disney_2.jpg) no-repeat center center fixed;
-    overflow: hidden;
     background-size: cover;
 }
 
@@ -136,7 +135,7 @@ html {
 /*for screens from 375px wide and up */
 @media screen and (max-width: 375px) {
     .quiz-container {
-        margin: 1rem;
+        margin: 5px auto;
     }
 
     .quiz-container h3 {
