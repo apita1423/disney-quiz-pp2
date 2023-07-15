@@ -13,6 +13,16 @@ html {
     max-height: 100vh;
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-center {
+    justify-content: center;
+    align-items: center;
+  }
+
 /* quiz style */
 .quiz-container {
     background: #e7bb41;
@@ -97,3 +107,30 @@ html {
 }
 
 /* media queries */
+
+/* for screens from 560px wide and up */
+@media screen and (max-width: 560px) {
+    .quiz-container {
+        margin: 55px auto;
+    }
+
+    .quiz-container h3 {
+        font-size: 3.5rem;
+    }
+
+    .footer p {
+        font-size: 18px;
+    }
+}
+
+/* for screens from 400px wide and up */
+@media screen and (max-width: 400px) {
+
+    .quiz-container h3 {
+        font-size: 2.5rem;
+    }
+
+    .question-container h2 {
+        font-size: 2rem;
+    }
+}

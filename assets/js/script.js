@@ -78,10 +78,12 @@ const game = [
     }
 ];
 
+//defined variables from html
 const disneyQuestion = document.getElementById("disney-question");
 const answerOptions = document.getElementById("answer-options");
 const nextQuestionBtn = document.getElementById("next-question-btn");
 
+//defined variables to start questions and score from 0
 let currentQuestionIndex = 0;
 let score = 0;
 

@@ -210,12 +210,9 @@ The Thank You Stamp was created in Canva using the sourced cat logo. It convient
 ![Thank You Logo Stamp](/assets/readme-images/logo-stamp-readme.png)
 
 ### Future Implementations
-- To set up a live feed of the cat area.
-- Add a coffee page to the website - a coffee section was thought of in the wireframes, but it was a lot for my knowledge at the time and actual time. [Cafe Wireframe](/assets/wireframes-images/cafe-page-wireframe.png)
-- Add a newsletter for updates on the cats or when cats are adopted - this was also part of my ideas at the beginning, but again knowledge and time. 
-- In the book here section, add a Manage Your Reservation. A customer would be able to create an account sign-in and cancel their reservation or if they would need to reschedule - this was also an idea that I had at the beginning, but same issue as above. [Book Here Wireframe](/assets/wireframes-images/book-here-wireframe.png)
-- I would like for the picture of the "cats" in the gallery, when a user hovers over them, they turn to reveal information of the cats. I had this idea, as well, from the beginning, but again same issue as above. [Cats Page Wireframe](/assets/wireframes-images/cats-page-wireframe.png)
-- I know many of the future implementaions were ideas that I thought of from the beginning, but my knowledge is not there yet. As my knowledge grows I would like to test them on this project. 
+- I would like to add a intro page and when you click on start the user begins the quiz. 
+- Sound would be a great addition. 
+
 
 ### Accessibility
 With every image and icon used throughout Whiskers N Whole Beans, I have added an aria-label or an alt attribute. I tried to use colour that was not to bright or light. The font is readable, but I do feel for future projects, I would do more research on what fonts are more accessible.
