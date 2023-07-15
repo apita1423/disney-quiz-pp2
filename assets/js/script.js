@@ -132,7 +132,22 @@ function revealScore(){
     nextQuestionBtn.style.display = "block";
 }
 
+function handleNextButton(){
+    currentQuestionIndex++;
+    if(currentQuestionIndex < game.length){
+        loadQuestion();
+    }else{
+        revealScore();
+    }
+}
 
+nextQuestionBtn.addEventListener("click", ()=>{
+    if(currentQuestionIndex < game.length){
+        handleNextButton();
+    }else{
+        startGame();
+    }
+});
 
 startGame();
 
