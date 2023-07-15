@@ -124,7 +124,7 @@ function selectOption(event){
     });
     nextQuestionBtn.style.display = "block";
 }
-
+//when the quiz is finish it will prompt to display the score out of the full amount of questions. 
 function revealScore(){
     resetState();
     disneyQuestion.innerHTML = `You scored ${score} out of ${game.length}!`;
