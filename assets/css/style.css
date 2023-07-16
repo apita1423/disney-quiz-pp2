@@ -17,7 +17,7 @@ html {
     flex-direction: column;
   }
   
-  .flex-center {
+.flex-center {
     justify-content: center;
     align-items: center;
   }
@@ -85,7 +85,7 @@ html {
     display: none;
 }
 
-/* feedback when answer is right or wrong */
+/* feedback color when answer is right or wrong */
 .correct {
     background: green;
 }
@@ -134,7 +134,7 @@ html {
 /*for screens from 375px wide and up */
 @media screen and (max-width: 375px) {
     .quiz-container {
-        margin: 5px auto;
+        margin: 15px auto;
     }
 
     .quiz-container h3 {
@@ -143,5 +143,12 @@ html {
 
     .question-container h2 {
         font-size: 1.7rem;
+    }
+
+/* for screens from 320px wide and up */
+    @media screen and (max-width: 320px) {
+        .quiz-container {
+            margin: 5px auto;
+        }
     }
 }

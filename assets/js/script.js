@@ -95,7 +95,7 @@ function startGame() {
     loadQuestion();
 }
 
-//function loads the quiz's questions
+//function loads the quiz's questions from the beginning
 function loadQuestion() {
     resetState();
     let currentQuestion = game[currentQuestionIndex];
@@ -114,7 +114,7 @@ function loadQuestion() {
     });
 }
 
-//resetState function allows for the answers in the questions to be the only ones showing instead of the choices of A, B, C, D
+//resetState function allows for the answers in the questions to be the only ones showing in place of the A, B, C, D in the html.
 function resetState() {
     nextQuestionBtn.style.display = "none";
     while (answerOptions.firstChild) {
@@ -122,7 +122,11 @@ function resetState() {
     }
 }
 
-
+/**
+ * This function is when the user is selecting their answer choice. If the choice is correct then the score will increment, if
+ *  not their score will not increment. A class was added of correct and incorrect. When the user would get the answer correct the
+ * button would turn green. If they got it wrong the one they chose would turn red and the right answer will show up as green. 
+ */
 function selectOption(event) {
     const selectedBtn = event.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
@@ -141,7 +145,7 @@ function selectOption(event) {
     nextQuestionBtn.style.display = "block";
 }
 
-//when the quiz is finish it will display the score out of the full amount of questions. 
+//when the quiz is finish it will display the score out of the full amount of questions
 function revealScore() {
     resetState();
     disneyQuestion.innerHTML = `You scored ${score} out of ${game.length}!`;
@@ -150,7 +154,7 @@ function revealScore() {
 }
 
 /**
- * If the questions has not reached the total number of questions then it would go to next question. 
+ * If the questions has not reached the total number of questions then it would go on to the next question. 
  * If the questions has reached the total number of questions then it will prompt it to reveal the score
 */
 function handleNextButton() {
@@ -162,6 +166,11 @@ function handleNextButton() {
     }
 }
 
+/**
+ * event listener for next button. If the questions has not reach the length of the question the next question button would show.
+ * If it has reached then it would go back to the function of startGame, which blocks the next button until the user has clicked
+ * on a answer. 
+ */
 nextQuestionBtn.addEventListener("click", () => {
     if (currentQuestionIndex < game.length) {
         handleNextButton();
@@ -171,4 +180,3 @@ nextQuestionBtn.addEventListener("click", () => {
 });
 
 startGame();
-
