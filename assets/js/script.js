@@ -110,7 +110,7 @@ function loadQuestion() {
         if (answer.correct) {
             button.dataset.correct = answer.correct;
         }
-        button.addEventListener("click", selectOption);
+        button.addEventListener("click", choicesOption);
     });
 }
 
@@ -127,14 +127,14 @@ function resetState() {
  *  not their score will not increment. A class was added of correct and incorrect. When the user would get the answer correct the
  * button would turn green. If they got it wrong the one they chose would turn red and the right answer will show up as green. 
  */
-function selectOption(event) {
-    const selectedBtn = event.target;
-    const isCorrect = selectedBtn.dataset.correct === "true";
+function choicesOption(event) {
+    const chosenBtn = event.target;
+    const isCorrect = chosenBtn.dataset.correct === "true";
     if (isCorrect) {
-        selectedBtn.classList.add("correct");
+        chosenBtn.classList.add("correct");
         score++;
     } else {
-        selectedBtn.classList.add("incorrect");
+        chosenBtn.classList.add("incorrect");
     }
     Array.from(answerOptions.children).forEach(button => {
         if (button.dataset.correct === "true") {
