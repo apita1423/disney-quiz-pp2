@@ -78,7 +78,7 @@ const game = [
     }
 ];
 
-//
+//I relied on Javascript code from GreatStack YouTube - link on the README
 //defined variables from html
 const disneyQuestion = document.getElementById("disney-question");
 const answerOptions = document.getElementById("answer-options");
