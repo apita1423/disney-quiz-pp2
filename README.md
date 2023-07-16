@@ -3,7 +3,7 @@ Disney Quiz is my second project for Code Institute. My original idea for the se
 
 Starting on the NASA quiz, I did much of the commits there. Looking at the Disney quiz it does not seem like I have enough commits and it was due to changing my mind pretty much at the last minute. 
 
-![Disney Quiz across different screen sizes](/assets/images/readme-images/Am%20I%20Responsive.png)
+![Disney Quiz across different screen sizes](/assets/images/readme-images/amiresponsive.png)
 
 Disney Quiz is Live!  Visit [Here](https://apita1423.github.io/disney-quiz-pp2/).  Have Fun!
 
@@ -57,18 +57,18 @@ For the Disney Quiz, user would automatically get their first question and they 
 ### Colour Scheme
 The colour scheme that I used for Disney Quiz was influenced by the 90s. Growing up in the 90s, I remember these colours being everywhere when we went to Disney World. 
 
-![Disney Quiz Colour Scheme](/assets/images/readme-images/PP2-Colour-Scheme.png)
+![Disney Quiz Colour Scheme](/assets/images/readme-images/pp2-colour-scheme.png)
 
 ### Typography
 The two fonts I used are from Google Fonts. The font used for the quiz heading was 'Luckiest Guy'. I felt this came as close to Disney "90s" style as possible. I also wanted to make it as fun and quirky as possible. It is a simple quiz, but wanted to bring back fun memories. The fonts for the question, answer options, and footer are 'Patrick Hand.' I think this also conveyed the fun side to the quiz. 
 
 - Luckiest Guy - Used for h3 (Disney Quiz Title)
 
-![Luckiest Guy](/assets/images/readme-images/Luckiest%20Guy%20Font.png)
+![Luckiest Guy](/assets/images/readme-images/luckiest-guy-font.png)
 
 - Patrick Hand - Used for questions, answer options, and footer
 
-![Patrick Hand](/assets/images/readme-images/Patrick%20Hand%20Font.png)
+![Patrick Hand](/assets/images/readme-images/patrick-hand-font.png)
 
 ### Imagery
 For the imagery of the site, I wanted to use a Disney background and the colours of the quiz is 90s theme. The colours really brought back memories of Disney when I was growing up. The Disney amusement park background just adds to the fun aspect that I wanted to bring to the quiz. 
@@ -76,11 +76,11 @@ For the imagery of the site, I wanted to use a Disney background and the colours
 ### Wireframes
 I used Balsamiq to create the backbone of the NASA Quiz. When I decided to change and do the Disney Quiz, I downsized the idea. There wasn't a separate start to the quiz or a separate screen that would show the right and wrong answer and facts. With the Disney Quiz, I went with the colour of the buttons changing from green to red if the user selected the wrong or right answer. The Javascript of the Disney Quiz was influenced by the GreatStack YouTube tutorial, so the end result took that format. The wireframes below is the idea of want I wanted to do, which I would like do in the future. 
 
-* [Start Quiz Wireframe](/assets/images/wireframes/Start-Wireframe.png)
-* [Question Wireframe](/assets/images/wireframes/Question-Wireframe.png)
-* [Right Answer Wireframe](/assets/images/wireframes/Right-Wireframe.png)
-* [Wrong Answer Wireframe](/assets/images/wireframes/Wrong-Wireframe.png)
-* [End Quiz Wireframe](/assets/images/wireframes/End-Wireframe.png)
+* [Start Quiz Wireframe](/assets/images/wireframes/start-wireframe.png)
+* [Question Wireframe](/assets/images/wireframes/question-wireframe.png)
+* [Right Answer Wireframe](/assets/images/wireframes/right-wireframe.png)
+* [Wrong Answer Wireframe](/assets/images/wireframes/wrong-wireframe.png)
+* [End Quiz Wireframe](/assets/images/wireframes/end-wireframe.png)
 
 ---
 
@@ -92,42 +92,42 @@ I used Balsamiq to create the backbone of the NASA Quiz. When I decided to chang
 
 The favicon icon was was sourced from [Canva](https://www.canva.com/). 
 
-![Favicon Tab](/assets/images/readme-images/Disney%20Favicon.png)
-![Favicon Image](/assets/images/readme-images/Favicon.png)
+![Favicon Tab](/assets/images/readme-images/disney-favicon.png)
+![Favicon Image](/assets/images/readme-images/favicon.png)
 
 - Quiz with background
 
-![Quiz with Mickey Mouse Amusement Park](/assets/images/readme-images/Full%20Screen%20.png)
+![Quiz with Mickey Mouse Amusement Park](/assets/images/readme-images/full-screen.png)
 
 - Start quiz. 
 
 The user would need to answer the first question and the next button should appear after.
 
-![Start of the quiz](/assets/images/readme-images/Quiz%20set%20up.png)
+![Start of the quiz](/assets/images/readme-images/quiz-setup.png)
 
 - Right Answer
 
 When the user clicks on the right answer, the button will highlight green.
 
-![Right Answer](/assets/images/readme-images/Right%20Answer.png)
+![Right Answer](/assets/images/readme-images/right-answer.png)
 
 - Wrong Answer
 
 When the user clicks on the wrong answer, the incorrect answer will highlight red and the correct answer will highlight green. 
 
-![Wrong Answer](/assets/images/readme-images/Wrong%20Answer.png)
+![Wrong Answer](/assets/images/readme-images/wrong-answer.png)
 
 - End of quiz and score
 
 At the end of the quiz, it will display the quiz score. For example, the user scored 5 out of 7. There is also a "Let's Play Again" button, which will take the user to the beginning of the quiz. 
 
-![End of quiz/score](/assets/images/readme-images/Score.png)
+![End of quiz/score](/assets/images/readme-images/score.png)
 
 - Footer
 
 The footer is placed inside the container for easy viewing. I also added that the Site was created for educational purposes. 
 
-![Footer](/assets/images/readme-images/Footer.png)
+![Footer](/assets/images/readme-images/footer.png)
 
 ### Future Implementations
 - I would like to add a intro page and when you click on start the user begins the quiz. 
@@ -141,15 +141,15 @@ Both the desktop and mobile version for Lighthouse gave great numbers. The numbe
 
 Lighthouse Desktop Version.
 
-![Lighthouse Desktop](/assets/images/readme-images/Lighthouse%20Desktop.png)
+![Lighthouse Desktop](/assets/images/readme-images/lighthouse-desktop.png)
 
 Lighthouse Mobile Version 
 
-![Lighthouse Mobile](/assets/images/readme-images/Lighthouse%20Mobile.png)
+![Lighthouse Mobile](/assets/images/readme-images/lighthouse-mobile.png)
 
 WAVE - Web Accessibility Evaluation Tool
 
-![WAVE Evaluation Tool](/assets/images/readme-images/WAVE.png)
+![WAVE Evaluation Tool](/assets/images/readme-images/wave.png)
 
 ---
 
@@ -200,15 +200,15 @@ Testing was done by me, friends, and family. This was to ensure that the site wo
 ### Testing Validation 
 - HTML Testing was validated through the W3C Validator. No errors or warnings were found. 
 
-![W3C Validator](/assets/images/readme-images/HTML%20Validator.png)
+![W3C Validator](/assets/images/readme-images/html-validator.png)
 
 - CSS Testing was validated through the Jigsaw CSS Validator. No errors or warnings were found. 
 
-![CSS Jigsaw Validator](/assets/images/readme-images/CSS%20Validator.png)
+![CSS Jigsaw Validator](/assets/images/readme-images/css-validator.png)
 
 - JS Testing was validated through the JSHint Validator. No errors found. 
 
-![JSHint Validator](/assets/images/readme-images/JSHint%20Validator.png)
+![JSHint Validator](/assets/images/readme-images/jshint-validator.png)
 
 ---
 
