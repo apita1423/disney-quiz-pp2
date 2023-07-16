@@ -114,7 +114,7 @@ function loadQuestion() {
     });
 }
 
-//resetState function allows for the answers in the questions to be the only ones showing in place of the A, B, C, D in the html.
+//resetState function allows for the answers in the questions to be the only ones showing in place of the A, B, C, D from the html.
 function resetState() {
     nextQuestionBtn.style.display = "none";
     while (answerOptions.firstChild) {
