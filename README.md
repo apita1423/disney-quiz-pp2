@@ -5,7 +5,7 @@ Starting on the NASA quiz, I did much of the commits there. Looking at the Disne
 
 ![Disney Quiz across different screen sizes](/assets/images/readme-images/Am%20I%20Responsive.png)
 
-Disney Quiz ia Live!  Visit [Here](https://apita1423.github.io/disney-quiz-pp2/).  Hope you enjoy!
+Disney Quiz is Live!  Visit [Here](https://apita1423.github.io/disney-quiz-pp2/).  Hope you enjoy!
 
 ---
 
@@ -94,17 +94,39 @@ The favicon icon was was sourced from [Canva](https://www.canva.com/).
 
 ![Favicon](/assets/images/readme-images/Disney%20Favicon.png)
 
+- Quiz with background
+
+![Quiz with Mickey Mouse Amusement Park](/assets/images/readme-images/Full%20Screen%20.png)
+
+- Start of the quiz. 
+
+The user would need to answer the question and the next button should appear after.
+
+![Start of the quiz](/assets/images/readme-images/Quiz%20set%20up.png)
+
+- Right Answer
+
+When the user clicks on the right answer, the button will highlight green.
+
+![Right Answer](/assets/images/readme-images/Right%20Answer.png)
+
+- Wrong Answer
+
+When the user clicks on the wrong answer, the incorrect answer will highlight red and the correct will highlight green. 
+
+![Wrong Answer](/assets/images/readme-images/Wrong%20Answer.png)
+
+- End of quiz and score
+
+At the end of the quiz, it will display the quiz score. For example, the user scored 5 out of 7. There is also a "Let's Play Again" button, which will take the user to the beginning of the quiz. 
+
+![End of quiz/score](/assets/images/readme-images/Wrong%20Answer.png)
+
 - Footer
 
 The footer is placed inside the container for easy viewing. I also added that the Site was created for educational purposes. 
 
 ![Footer](/assets/images/readme-images/Footer.png)
-
-- People Hero Image
-
-Due to this page being called People page, I wanted a hero image that had a cat and a person. 
-
-![People Hero Image](/assets/readme-images/people-hero-image.png)
 
 ### Future Implementations
 - I would like to add a intro page and when you click on start the user begins the quiz. 
@@ -113,17 +135,15 @@ Due to this page being called People page, I wanted a hero image that had a cat 
 - I would like to implement the NASA Quiz as well. 
 
 ### Accessibility
-With every image and icon used throughout Whiskers N Whole Beans, I have added an aria-label or an alt attribute. I tried to use colour that was not to bright or light. The font is readable, but I do feel for future projects, I would do more research on what fonts are more accessible.
-
-The desktop version for Lighthouse gave great numbers, but the mobile was not the greatest for Performance (image below). I would like to work on that and see what I can do to make that better. I used WAVE for the contrast, which gave back 0 errors (image below).
+Both the desktop and mobile version for Lighthouse gave great numbers.
 
 Lighthouse Desktop Version.
 
-![Lighthouse Desktop](/assets/readme-images/lighthouse-desktop.png)
+![Lighthouse Desktop](/assets/images/readme-images/Lighthouse%20Desktop.png)
 
 Lighthouse Mobile Version 
 
-![Lighthouse Mobile](/assets/readme-images/lighthouse-mobile.png)
+![Lighthouse Mobile](/assets/images/readme-images/Lighthouse%20Mobile.png)
 
 WAVE - Web Accessibility Evaluation Tool
 
@@ -178,11 +198,15 @@ Testing was done by me, friends, and family. This was to ensure that the site wo
 ### Testing Validation 
 - HTML Testing was validated through the W3C Validator. No errors or warnings were found. 
 
-![W3C Validator](/assets/readme-images/html-validator-readme.png)
+![W3C Validator](/assets/images/readme-images/HTML%20Validator.png)
 
 - CSS Testing was validated through the Jigsaw CSS Validator. No errors or warnings were found. 
 
-![CSS Jigsaw Validator](/assets/readme-images/css-validator-readme.png)
+![CSS Jigsaw Validator](/assets/images/readme-images/CSS%20Validator.png)
+
+- JS Testing was validated through the JSHint Validator. No errors found. 
+
+![JSHint Validator](/assets/images/readme-images/JSHint%20Validator.png)
 
 ---
 
