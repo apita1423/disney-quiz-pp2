@@ -57,7 +57,7 @@ For the Disney Quiz, user would automatically get their first question and they 
 ### Colour Scheme
 The colour scheme that I used for Disney Quiz was influenced by the 90s. Growing up in the 90s, I remember these colours being everywhere when we went to Disney World. 
 
-![Disney Quiz Colour Scheme](/assets/images/readme-images/pp2-colour-scheme.png)
+![Disney Quiz Colour Scheme](/assets/images/readme-images/colour-scheme.png)
 
 ### Typography
 The two fonts I used are from Google Fonts. The font used for the quiz heading was 'Luckiest Guy'. I felt this came as close to Disney "90s" style as possible. I also wanted to make it as fun and quirky as possible. It is a simple quiz, but wanted to bring back fun memories. The fonts for the question, answer options, and footer are 'Patrick Hand.' I think this also conveyed the fun side to the quiz. 
