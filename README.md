@@ -76,12 +76,11 @@ For the imagery of the site, I wanted to use a Disney background and the colours
 ### Wireframes
 I used Balsamiq to create the backbone of the NASA Quiz. When I decided to change and do the Disney Quiz, I downsized the idea. There wasn't a separate start to the quiz or a separate screen that would show the right and wrong answer and facts. With the Disney Quiz, I went with the colour of the buttons changing from green to red if the user selected the wrong or right answer. The Javascript of the Disney Quiz was influenced by the GreatStack YouTube tutorial, so the end result took that format. The wireframes below is the idea of want I wanted to do, which I would like do in the future. 
 
-* [Start Quiz Wireframe](/assets/images/wireframes/start-wireframe.png)
-* [Question Wireframe](/assets/images/wireframes/question-wireframe.png)
-* [Right Answer Wireframe](/assets/images/wireframes/right-wireframe.png)
-* [Wrong Answer Wireframe](/assets/images/wireframes/wrong-wireframe.png)
-* [End Quiz Wireframe](/assets/images/wireframes/end-wireframe.png)
-
+* [Start Quiz Wireframe](/assets/images/wireframes/nasa-start-wireframe.png)
+* [Question Wireframe](/assets/images/wireframes/nasa-question-wireframe.png)
+* [Right Answer Wireframe](/assets/images/wireframes/nasa-right-wireframe.png)
+* [Wrong Answer Wireframe](/assets/images/wireframes/nasa-wrong-wireframe.png)
+* [End Quiz Wireframe](/assets/images/wireframes/nasa-end-wireframe.png)
 ---
 
 ## Features
