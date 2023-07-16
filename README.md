@@ -246,8 +246,9 @@ WAVE - Web Accessibility Evaluation Tool
 - [Balsamiq](https://balsamiq.com/) - Used to create a sample of how I wanted the site to look. 
 - [Google Fonts](https://fonts.google.com/) - Used to find fonts. Fonts used was Pangolin and Shadows Into Light Two and Sans-serif is the default font. 
 - [Coolors](https://coolors.co/) - Used to put together the colour scheme for the site. 
+- [Canva] (https://www.canva.com/) - Used to find the favicon icon.
 - [Favicon](https://favicon.io) - Used to create the favicon from the logo that was created. 
-- [Pexels](https://www.pexels.com/) - Used for photos on the website (Mo and Eva picture was taken from my personal photos).
+- [Pexels](https://www.pexels.com/) - Used for background photo for the quiz.
 - [Am I Responsive](https://ui.dev/amiresponsive) - Used to check how the site would look on different screen sizes. 
 - [Font Awesome](https://fontawesome.com/) - Used for wizard icon next to the Disney Quiz title.
 
@@ -258,12 +259,12 @@ WAVE - Web Accessibility Evaluation Tool
 ## Deployment
 Disney Quiz has been deployed through Github.
 
-- Click Here for the live site: [Whiskers N Whole Beans](https://apita1423.github.io/whiskers-n-whole-beans/index.html)
+- Click Here for the live site: [Whiskers N Whole Beans](https://github.com/apita1423/disney-quiz-pp2)
 
 Instructions on how to deploy:
 
 1. Login to Github.
-2. On the left navigation menu, click on your respository. [Github Repository - apita1423](https://github.com/apita1423/whiskers-n-whole-beans).
+2. On the left navigation menu, click on your respository. [Github Repository - apita1423](https://github.com/apita1423/disney-quiz-pp2).
 3. Click on Settings.
 4. Click on Pages on the left navigation menu.
 5. Click on the dropdown menu under Branch and select main and hit Save (this process might take a few minutes).
@@ -294,16 +295,15 @@ Testing was done by me, friends, and family. This was to ensure that the site an
 Whiskers N Whole Beans would be the first website I have ever built, so I relied on Code Institute's Love Running project to guide me through the process. Although I used it as a guide, I tweak the code to fit the website. For example, the menu in the navigation bar. The book here form was based on the Love Running project form, but tweaked it to fit the design of the website. 
 
 ### Content
-Content was written by Amanda Pita. 
+Questions were written by Amanda Pita. 
 
-Much of the content came from personal experiences. For example, when I adopted Mo and Eva, I had to make an appointment before seeing them due to other cats being in the same house. I would later find out the reason for that, from personal experience, was because cats can become extremely stressful with changes in their environment. We moved from Ireland back to the States, and long story short there was a lot of vet visits due to an increase amount of stress. I am also a librarian, so of course, I would name the cats after literary characters or authors. 
+Questions were all from my knowledge of Disney. I'm a big Disney fan, so 
 
 ### Media
 Mo and Eva image in the People page is from my personal photos. 
 
 Images sourced from Pexel:
-* [Home Hero Image](https://www.pexels.com/photo/adorable-cat-resting-in-armchair-near-table-with-coffee-4556369/)
-* [Home Middle Image](https://www.pexels.com/photo/two-tabby-kittens-lying-down-1787414/)
+* [Disney Fair Grouds](https://www.pexels.com/photo/amusement-park-with-ferris-wheel-and-rollerco-8200255/)
 
 
 ### Acknowledgments

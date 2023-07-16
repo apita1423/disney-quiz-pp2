@@ -12,6 +12,8 @@ html {
     max-height: 100vh;
 }
 
+/* flex-column and flex-center idea was taken from James Quick Javascript tutorial on YouTube.
+Link would be in the README */
 .flex-column {
     display: flex;
     flex-direction: column;
