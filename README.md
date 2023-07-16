@@ -93,7 +93,6 @@ I used Balsamiq to create the backbone of the NASA Quiz. When I decided to chang
 The favicon icon was was sourced from [Canva](https://www.canva.com/). 
 
 ![Favicon Tab](/assets/images/readme-images/disney-favicon.png)
-![Favicon Image](/assets/images/readme-images/favicon.png)
 
 - Quiz with background
 
@@ -121,13 +120,13 @@ When the user clicks on the wrong answer, the incorrect answer will highlight re
 
 At the end of the quiz, it will display the quiz score. For example, the user scored 5 out of 7. There is also a "Let's Play Again" button, which will take the user to the beginning of the quiz. 
 
-![End of quiz/score](/assets/images/readme-images/score.png)
+![End of quiz/score](/assets/images/readme-images/end-quiz.png)
 
 - Footer
 
 The footer is placed inside the container for easy viewing. I also added that the Site was created for educational purposes. 
 
-![Footer](/assets/images/readme-images/footer.png)
+![Footer](/assets/images/readme-images/quiz-footer.png)
 
 ### Future Implementations
 - I would like to add a intro page and when you click on start the user begins the quiz. 
@@ -149,7 +148,7 @@ Lighthouse Mobile Version
 
 WAVE - Web Accessibility Evaluation Tool
 
-![WAVE Evaluation Tool](/assets/images/readme-images/wave.png)
+![WAVE Evaluation Tool](/assets/images/readme-images/quiz-wave.png)
 
 ---
 
