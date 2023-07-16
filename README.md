@@ -92,7 +92,8 @@ I used Balsamiq to create the backbone of the NASA Quiz. When I decided to chang
 
 The favicon icon was was sourced from [Canva](https://www.canva.com/). 
 
-![Favicon](/assets/images/readme-images/Disney%20Favicon.png)
+![Favicon Tab](/assets/images/readme-images/Disney%20Favicon.png)
+![Favicon Image](/assets/images/readme-images/Favicon.png)
 
 - Quiz with background
 
@@ -120,7 +121,7 @@ When the user clicks on the wrong answer, the incorrect answer will highlight re
 
 At the end of the quiz, it will display the quiz score. For example, the user scored 5 out of 7. There is also a "Let's Play Again" button, which will take the user to the beginning of the quiz. 
 
-![End of quiz/score](/assets/images/readme-images/Wrong%20Answer.png)
+![End of quiz/score](/assets/images/readme-images/Score.png)
 
 - Footer
 
@@ -133,9 +134,10 @@ The footer is placed inside the container for easy viewing. I also added that th
 - Sound would be a great addition. 
 - I would like to add a timer and more info on the correct or incorrect answers (idea taken from the NASA Quiz idea).
 - I would like to implement the NASA Quiz as well. 
+- I enjoyed the colours that I used, but it did receive some contrast errors in the WAVE tool. For future implementations, I would like to play with various colours. 
 
 ### Accessibility
-Both the desktop and mobile version for Lighthouse gave great numbers.
+Both the desktop and mobile version for Lighthouse gave great numbers. The number for WAVE, especially for contrast, were not great. This is due to the colours that are being used. 
 
 Lighthouse Desktop Version.
 
@@ -147,7 +149,7 @@ Lighthouse Mobile Version
 
 WAVE - Web Accessibility Evaluation Tool
 
-![WAVE Evaluation Tool](/assets/readme-images/wave.png)
+![WAVE Evaluation Tool](/assets/images/readme-images/WAVE.png)
 
 ---
 
