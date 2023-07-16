@@ -1,9 +1,9 @@
 # Disney Quiz
-Whiskers N Whole Beans is my first project for Code Institute. The idea came from my love for coffee, books, and, of course, cats. I do have two cats name Mo and Eva and their picture was used for the People page and I am also a librarian. My cats were actually in foster care when we got them, so that sparked the idea and was also influenced by the growing number of cat cafes popping up in various cities. And, personally, I always wanted to open a coffeeshop and bakery. 
+Disney Quiz is my second project for Code Institute. My original idea for the second project was a NASA quiz, but I wanted to create a quiz that was a bit more fun and colourful. I started creating the NASA quiz, but I felt it became more of an educational tool (which is great and that will be something I would love to do in the future). I also wanted to create a quiz that everyone would know and everyone knows Disney. 
 
-Whiskers N Whole Beans is a business's website. It is intended to give users information on what the business is, what it does, and what they can do to avail of the services. I wanted to create a site that was welcoming without a crazy amount of colour, a lot of wording, or pictures. I wanted to make it simple and to the point, where it won't be overwhelming to customers, but it still had a bit of fun to it. 
+Starting on the NASA quiz, I did much of the commits there. Looking at the Disney quiz it does not seem like I have enough commits and it was due to changing my mind pretty much at the last minute. 
 
-![Whiskers N Whole Beans across different screen sizes](/assets/readme-images/responsive-screens-readme.png)
+![Disney Quiz across different screen sizes](/assets/images/readme-images/AmIResponsive.png)
 
 Disney Quiz ia Live!  Visit [Here](https://apita1423.github.io/disney-quiz-pp2/).  Hope you enjoy!
 
@@ -46,34 +46,34 @@ Disney Quiz ia Live!  Visit [Here](https://apita1423.github.io/disney-quiz-pp2/)
 ## User Experience
 
 ### User Stories
-Cats are known for their calm nature just laying their sleeping for hours upon hours. I wanted to convey that calm nature through the website. For first time users, I wanted them to feel like there wasn't so much being thrown at them. For returning users, I wanted the website to feel like when the users is in need of some relaxation, coffee/tea/pastry, and want to hang out with cats, they know exactly where to go. Working as a librarian, and having multiple patrons come to me asking me questions, I want to look at a website and not feel like I need to jump through multiple hoops to just get a answer. That is what I wanted the website to be. That is why I linked the different pages through the text. A user wants to read the first page, but wants to quickly go to the Book Here page they can do that. They want to find out about the DSPCA, there is a link for that right in the Home page. For returning users, they can click right on the Book Here menu right from the Home page and don't have to go through all the pages (in future implementation I mentioned that I wanted to add a Manage Your Reservation section, which allows the user to cancel if they need to or change time of their reservation). The main goal of the website was that the users does not have to jump through multiple hoops just to get what they want. 
+My original idea for a quiz was a NASA Quiz, which allowed the user to start the quiz and chose an answer and if incorrect they would have received fact/info about the question. I felt that it would be an awesome tool for young students learning about the different space agencies, but I felt that it wasn't as fun. 
+
+
+
+For the Disney Quiz, user would automatically get their first question and they would have to chose an answer and right away they would be told if they got the correct or incorrect answer by the button turning green (correct) or red(incorrect). When the user gets clicks on the incorrect button it would turn red and the correct button would turn green. When the user finishes the last question, the screen will display the score out of the total questions, and a button if the user would want to try again. 
 
 ---
 
 ## Design
 
 ### Colour Scheme
-The colour scheme that I used for Whiskers N Whole Beans was more towards warm colours. The main idea of the site is to be a place where you can relax and feel at home. For many people, sitting on a chair with a purring cat on their lap, drinking tea or coffee, and having pastries can materialise warmth and relaxation. It does for me and bringing in some autumn colours creates that atmosphere. 
+The colour scheme that I used for Disney Quiz was influenced by the 90s. Growing up in the 90s, I remember these colours being everywhere when we went to Disney World. 
 
-![Whiskers N Whole Beans Colour Scheme](/assets/readme-images/colour-scheme.png)
+![Disney Quiz Colour Scheme](/assets/images/readme-images/PP2-Colour-Scheme.png)
 
 ### Typography
 The two fonts I used are from Google Fonts. The font used for the body was Pangolin and for h1, h2, and h3 was Shadows Into Light Two. My default font was Sans-serif. I decided on Pangolin and Shadows Into Light Two because of their playful nature. They capture the overall idea of the website, which is playful. Calm, but playful (just like the cats). 
 
-- Shadow Into Light Two - Used for Headings
+- Luckiest Guy - Used for h3 (Disney Quiz Title)
 
-![Shadow Into Light Two](/assets/readme-images/headings-fonts-readme.png)
+![Luckiest Guy](/assets/images/readme-images/Luckiest%20Guy%20Font.png)
 
-- Pangolin Font - Used for Body
+- Patrick Hand - Used for questions, answer options, and footer
 
-![Pangolin Font](/assets/readme-images/body-font-readme.png)
-
-I did have one problem that showed up in the editor (CSS), but passed the Jisgsaw validator. I don't think there is much I can do about it, and have added an image of it. 
-
-![Font problem](/assets/readme-images/font-problem.png)
+![Patrick Hand](/assets/images/readme-images/Patrick%20Hand%20Font.png)
 
 ### Imagery
-For the imagery of the site, I wanted to show cats doing what cats do best sleeping or getting up to no good. Cats have unique personalities and I tried to find pictures that once you looked at them you know there is a unique personality behind that face. I also wanted some soft tones to the pictures, but every now and then there is a pop of colour to the photos. My favourite colours are autumn colours (orange and brown), so you will find those colours throughout the site. 
+For the imagery of the site, I wanted to use a Disney background and the colours of the quiz is 90s theme. The colours really brought back memories of Disney when I was growing up. The background image of 
 
 ### Wireframes
 I used Balsamiq to bring my ideas to "life". There was a lot that I added to the wireframes, but I had to delete the cafe page due to time and had to let go of some of the ideas due to knowledge and time. I did add this to my future implementation section. Thank You page was not thought of right at the beginning. It was a page that was added towards the end of the project based on suggestion on the Slack community. I have added the Thank You image to the Feature section. 
@@ -276,7 +276,6 @@ Testing was done by me, friends, and family. This was to ensure that the site an
 
 * Site was tested on Google Chrome, Firefox, and Safari. 
 * I tested the site using W3C, Jigsaw, Lighthouse, and WAVE.
-* Media Queries were increasingly difficult for me, so I relied heavily on the dev tools in Google Chrome and Firefox to test the screen sizes. 
 
 ### Testing Validation 
 - HTML Testing was validated through the W3C Validator. No errors or warnings were found. 

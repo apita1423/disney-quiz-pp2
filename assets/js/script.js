@@ -78,6 +78,7 @@ const game = [
     }
 ];
 
+//
 //defined variables from html
 const disneyQuestion = document.getElementById("disney-question");
 const answerOptions = document.getElementById("answer-options");
