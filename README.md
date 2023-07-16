@@ -48,7 +48,7 @@ Disney Quiz is Live!  Visit [Here](https://apita1423.github.io/disney-quiz-pp2/)
 ### User Stories
 My original idea for a quiz was a NASA Quiz, which allowed the user to start the quiz and chose an answer and if incorrect they would have received fact/info about the question. I felt that it would be an awesome tool for young students learning about the different space agencies, but I felt that it wasn't as fun. 
 
-For the Disney Quiz, user would automatically get their first question and they would have to chose an answer and right away they would be told if they got the correct or incorrect answer by the button turning green (correct) or red(incorrect). When the user clicks on the incorrect button it would turn red and the correct button would turn green. When the user finishes the last question, the screen will display the score out of the total questions, and a button if the user would want to play again. 
+For the Disney Quiz, user would automatically get their first question and they would have to chose an answer and right away they would be told if they got the correct or incorrect answer by the button turning green (correct) or red (incorrect). When the user clicks on the incorrect button it would turn red and the correct button would turn green. When the user finishes the last question, the screen will display the score out of the total questions, and a button if the user would want to play again. 
 
 ---
 
@@ -74,7 +74,7 @@ The two fonts I used are from Google Fonts. The font used for the quiz heading w
 For the imagery of the site, I wanted to use a Disney background and the colours of the quiz is 90s theme. The colours really brought back memories of Disney when I was growing up. The Disney amusement park background just adds to the fun aspect that I wanted to bring to the quiz. 
 
 ### Wireframes
-I used Balsamiq to create the backbone of the NASA Quiz. When I decided to change and do the Disney Quiz, I downsized the idea. There was no start to quiz or a separate screen that would show the right and wrong answer and facts. With the Disney Quiz, I went with the colour of the buttons changing from green to red if the user selected the wrong or right answer. The Javascript of the Disney Quiz was influenced by the GreatStack YouTube tutorial, so the end result took that format. The wireframes below is the idea of want I wanted to do, which I would like do in the future. 
+I used Balsamiq to create the backbone of the NASA Quiz. When I decided to change and do the Disney Quiz, I downsized the idea. There wasn't a separate start to the quiz or a separate screen that would show the right and wrong answer and facts. With the Disney Quiz, I went with the colour of the buttons changing from green to red if the user selected the wrong or right answer. The Javascript of the Disney Quiz was influenced by the GreatStack YouTube tutorial, so the end result took that format. The wireframes below is the idea of want I wanted to do, which I would like do in the future. 
 
 * [Start Quiz Wireframe](/assets/images/wireframes/Start-Wireframe.png)
 * [Question Wireframe](/assets/images/wireframes/Question-Wireframe.png)
@@ -225,7 +225,6 @@ Javascript was difficult for me. It is something that I most definitely need muc
 
 [James Quick YouTube](https://www.youtube.com/watch?v=Opje9VBrNfg)
 
-
 ### Content
 Questions were thought of by Amanda Pita. 
 
@@ -237,6 +236,6 @@ Images sourced from Pexel:
 * [Disney Fair Grouds](https://www.pexels.com/photo/amusement-park-with-ferris-wheel-and-rollerco-8200255/)
 
 ### Acknowledgments
-Again, I would like to give thanks to my husband. Who I kept on asking to check if the quiz work on his phone even though I could have checked it on my phone. But, two sets of eyes are better then one. 
+Again, I would like to give thanks to my husband. Who I kept on asking to check if the quiz worked on his phone even though I could have checked it on my phone. But, two sets of eyes are better then one. 
 
 As always, I'm extremely grateful to my mentor Martina who encourages me, especially when I was ready to call it quits. The best mentor anyone can ask for!

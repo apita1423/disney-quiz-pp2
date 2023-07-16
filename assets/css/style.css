@@ -107,7 +107,6 @@ Link would be in the README */
 }
 
 /* media queries */
-
 /* for screens from 560px wide and up */
 @media screen and (max-width: 560px) {
     .quiz-container {

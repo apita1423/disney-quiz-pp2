@@ -1,13 +1,12 @@
 //disney questions and answer options
 const game = [
     {
-        question: "What movie is the song, 'We don\'t talk about Bruno?' called?",
+        question: "What movie is the song, 'We don\'t talk about Bruno?' from?",
         answer: [
             { option: 'Mulan', correct: false },
             { option: 'Toy Story', correct: false },
             { option: 'Encanto', correct: true },
             { option: 'Beauty and The Beast', correct: false }
-
         ]
     },
     {
@@ -17,7 +16,6 @@ const game = [
             { option: 'Snow White', correct: false },
             { option: 'Cinderella', correct: false },
             { option: 'Frozen', correct: true }
-
         ]
     },
     {
@@ -27,7 +25,6 @@ const game = [
             { option: 'Scotland', correct: true },
             { option: 'Sweden', correct: false },
             { option: 'France', correct: false }
-
         ]
     },
     {
@@ -37,7 +34,6 @@ const game = [
             { option: 'Woody and Buzz', correct: false },
             { option: 'Flounder and Sebastian', correct: false },
             { option: 'Kristoff and Sven', correct: false }
-
         ]
     },
     {
