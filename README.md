@@ -74,13 +74,13 @@ The two fonts I used are from Google Fonts. The font used for the quiz heading w
 For the imagery of the site, I wanted to use a Disney background and the colours of the quiz is 90s theme. The colours really brought back memories of Disney when I was growing up. The background image of 
 
 ### Wireframes
-I used Balsamiq to bring my ideas to "life". There was a lot that I added to the wireframes, but I had to delete the cafe page due to time and had to let go of some of the ideas due to knowledge and time. I did add this to my future implementation section. Thank You page was not thought of right at the beginning. It was a page that was added towards the end of the project based on suggestion on the Slack community. I have added the Thank You image to the Feature section. 
+I used Balsamiq to create the backbone of the NASA Quiz. When I decided to change and do the Disney Quiz, I downsized the idea. There was no start to quiz or a separate screen that would show the right and wrong answer and facts. With the Disney Quiz, I went with the colour of the buttons changing from green to red if the user selected the wrong or right answer. The Javascript of the Disney Quiz was influenced by the GreatStack YouTube tutorial, so the end result took that format. The wireframes below is the idea of want I wanted to do, which I would like do in the future. 
 
-* [Home Page Wireframe](/assets/wireframes-images/home-page-wireframe.png)
-* [People Page Wireframe](/assets/wireframes-images/people-page-wireframe.png)
-* [Cats Page Wireframe](/assets/wireframes-images/cats-page-wireframe.png)
-* [Cafe Page Wireframe](/assets/wireframes-images/cafe-page-wireframe.png)
-* [Book Here Wireframe](/assets/wireframes-images/book-here-wireframe.png)
+* [Start Quiz Wireframe](/assets/images/wireframes/Start-Wireframe.png)
+* [Question Wireframe](/assets/images/wireframes/Question-Wireframe.png)
+* [Right Answer Wireframe](/assets/images/wireframes/Right-Wireframe.png)
+* [Wrong Answer Wireframe](/assets/images/wireframes/Wrong-Wireframe.png)
+* [End Quiz Wireframe](/assets/images/wireframes/End-Wireframe.png)
 
 ---
 
@@ -144,7 +144,7 @@ WAVE - Web Accessibility Evaluation Tool
 - [Balsamiq](https://balsamiq.com/) - Used to create a sample of how I wanted the site to look. 
 - [Google Fonts](https://fonts.google.com/) - Used to find fonts. Fonts used was Pangolin and Shadows Into Light Two and Sans-serif is the default font. 
 - [Coolors](https://coolors.co/) - Used to put together the colour scheme for the site. 
-- [Canva] (https://www.canva.com/) - Used to find the favicon icon.
+- [Canva](https://www.canva.com/) - Used to find the favicon icon.
 - [Favicon](https://favicon.io) - Used to create the favicon from the logo that was created. 
 - [Pexels](https://www.pexels.com/) - Used for background photo for the quiz.
 - [Am I Responsive](https://ui.dev/amiresponsive) - Used to check how the site would look on different screen sizes. 
@@ -157,7 +157,7 @@ WAVE - Web Accessibility Evaluation Tool
 ## Deployment
 Disney Quiz has been deployed through Github.
 
-- Click Here for the live site: [Whiskers N Whole Beans](https://github.com/apita1423/disney-quiz-pp2)
+- Click Here for the live site: [Disney Quiz](https://github.com/apita1423/disney-quiz-pp2)
 
 Instructions on how to deploy:
 
@@ -193,11 +193,11 @@ Javascript was difficult for me. It is something that I most definitely need muc
 
 - GreatStack from YouTube was great help. It was a tutorial that made it easy to follow. Although I changed some bits to cater to my quiz, this tutorial formed the basis of my Javascript. 
 
-* [GreatStack YouTube](https://www.youtube.com/watch?v=PBcqGxrr9g8&list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9&index=3)
+[GreatStack YouTube](https://www.youtube.com/watch?v=PBcqGxrr9g8&list=PLjwm_8O3suyOgDS_Z8AWbbq3zpCmR-WE9&index=3)
 
 - I'm also still getting the hang of CSS especially with flexbox, as well as, rem. So I used the flexbox code section from James Quick YouTube/Udemy tutorial in my html/css. 
 
-* [James Quick YouTube](https://www.youtube.com/watch?v=Opje9VBrNfg)
+[James Quick YouTube](https://www.youtube.com/watch?v=Opje9VBrNfg)
 
 
 ### Content
